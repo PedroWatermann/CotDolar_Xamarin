@@ -18,10 +18,11 @@
         <Label Text="CotDolar"
                TextTransform="None"
                FontSize="60"
-               FontFamily="Domine"
+               FontFamily="{StaticResource Domine}"
                HorizontalOptions="CenterAndExpand"/>
         <Label Text="O app para se manter atualizado"
                FontSize="13"
+               FontFamily="{StaticResource Domine}"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="Start"/>
 
@@ -42,6 +43,7 @@
                            HorizontalOptions="CenterAndExpand"/>
                     <Label Text=""
                            FontSize="20"
+                           FontFamily="{StaticResource Domine}"
                            HorizontalOptions="CenterAndExpand"
                            x:Name="lblCotCompra"/>
                 </StackLayout>
@@ -58,6 +60,7 @@
                            HorizontalOptions="CenterAndExpand"/>
                     <Label Text=""
                            FontSize="20"
+                           FontFamily="{StaticResource Domine}"
                            HorizontalOptions="CenterAndExpand"
                            x:Name="lblCotVenda"/>
                 </StackLayout>
@@ -104,6 +107,7 @@
             <Button Text="Filtrar"
                     FontSize="20"
                     FontAttributes="Bold"
+                    FontFamily="{StaticResource Domine}"
                     VerticalOptions="Center"
                     HorizontalOptions="CenterAndExpand"
                     WidthRequest="300"
@@ -117,6 +121,7 @@
         <Button Text="Sair"
                 FontAttributes="Bold"
                 FontSize="18"
+                FontFamily="{StaticResource Domine}"
                 HorizontalOptions="EndAndExpand"
                 VerticalOptions="End"
                 WidthRequest="150"

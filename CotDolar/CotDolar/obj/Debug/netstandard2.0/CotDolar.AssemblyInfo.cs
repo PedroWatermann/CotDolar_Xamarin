@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CotDolar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9dc9dcff02e5cf6b2f6c45c15f8637687877030")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f82ecda1eff87d20ceba9cac12cdbf347c5d2ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("CotDolar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CotDolar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

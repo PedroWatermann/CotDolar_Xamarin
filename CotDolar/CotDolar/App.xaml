@@ -4,5 +4,11 @@
              x:Class="CotDolar.App">
     <Application.Resources>
 
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="Domine">
+                <On Platform="Android" Value="Domine-VariableFont.ttf#Domine"/>
+            </OnPlatform>
+        </ResourceDictionary>
+        
     </Application.Resources>
 </Application>

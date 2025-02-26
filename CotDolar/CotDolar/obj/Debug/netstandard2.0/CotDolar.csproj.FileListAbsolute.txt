@@ -1,0 +1,16 @@
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\bin\Debug\netstandard2.0\CotDolar.deps.json
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\bin\Debug\netstandard2.0\CotDolar.dll
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\bin\Debug\netstandard2.0\ref\CotDolar.dll
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\bin\Debug\netstandard2.0\CotDolar.pdb
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\CotDolar.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\CotDolar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\CotDolar.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\CotDolar.AssemblyInfo.cs
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\CotDolar.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\CotDolar.sourcelink.json
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\CotDolar.dll
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\refint\CotDolar.dll
+C:\Users\pedro\source\repos\PedroWatermann\CotDolar_Xamarin\CotDolar\CotDolar\obj\Debug\netstandard2.0\CotDolar.pdb

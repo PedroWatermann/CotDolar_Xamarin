@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CotDolar.MainPage"
+             Title="CotDolar"
+             BackgroundColor="#DAA520">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="10">
+            
+        <Label Text="CotDolar"
+               TextTransform="None"
+               FontSize="60"
+               FontFamily="Domine"
+               HorizontalOptions="CenterAndExpand"/>
+        <Label Text="O app para se manter atualizado"
+               FontSize="13"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Start"/>
+
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <BoxView HeightRequest="2"
+                     WidthRequest="1000"
+                     BackgroundColor="Black"
+                     HorizontalOptions="Fill"/>
+            
+            <StackLayout Orientation="Horizontal" Margin="0, 20, 0, 0">
+                <Image Source="Dolar_Down"
+                       HeightRequest="100"
+                       WidthRequest="100"/>
+                <StackLayout Orientation="Vertical" 
+                             VerticalOptions="CenterAndExpand">
+                    <Label Text="Cotação de compra:"
+                           FontSize="30"
+                           HorizontalOptions="CenterAndExpand"/>
+                    <Label Text=""
+                           FontSize="20"
+                           HorizontalOptions="CenterAndExpand"
+                           x:Name="lblCotCompra"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="0, 0, 0, 20">
+                <Image Source="Dolar_Up"
+                       HeightRequest="100"
+                       WidthRequest="100"/>
+                <StackLayout Orientation="Vertical"
+                             VerticalOptions="CenterAndExpand">
+                    <Label Text="Cotação de venda:"
+                           FontSize="30"
+                           HorizontalOptions="CenterAndExpand"/>
+                    <Label Text=""
+                           FontSize="20"
+                           HorizontalOptions="CenterAndExpand"
+                           x:Name="lblCotVenda"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand">
+                <Label Text="Data: "
+                       VerticalOptions="End"
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="18"
+                       Margin="0, 0, 20, 0"
+                       x:Name="lblData"/>
+                
+                <Label Text="Hora: "
+                       VerticalOptions="End"
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="18"
+                       x:Name="lblHora"/>
+            </StackLayout>
+
+            <BoxView HeightRequest="2"
+                     WidthRequest="1000"
+                     BackgroundColor="Black"
+                     HorizontalOptions="Fill"/>
+        </StackLayout>
+        
+        <StackLayout Orientation="Vertical"
+                     VerticalOptions="StartAndExpand">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Calendar"
+                       IsAnimationPlaying="False"
+                       WidthRequest="50"
+                       HeightRequest="50"/>
+
+                <DatePicker x:Name="dtpFiltro"
+                            Format="dd/MM/yyyy"
+                            FontSize="30"
+                            TextColor="Black"
+                            HorizontalOptions="CenterAndExpand"
+                            WidthRequest="300"/>
+            </StackLayout>
+
+            <Button Text="Filtrar"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="300"
+                    HeightRequest="60"
+                    BackgroundColor="#000089"
+                    CornerRadius="30"
+                    x:Name="btnFiltrar"
+                    Clicked="btnFiltrar_Clicked"/>
+        </StackLayout>
+
+        <Button Text="Sair"
+                FontAttributes="Bold"
+                FontSize="18"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="End"
+                WidthRequest="150"
+                BackgroundColor="#9F0000"
+                CornerRadius="30"
+                x:Name="btnSair"
+                Clicked="btnSair_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
